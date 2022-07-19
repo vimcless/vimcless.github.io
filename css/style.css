@@ -1,0 +1,15 @@
+body, h1, h2, h3, h4, h5, h6 {font-family: "Linux Biolinum", sans-serif;}
+
+.w3-row-padding img {margin-bottom: 12px}
+
+.w3-sidebar {background: #222; width: 120px;}
+
+#main {margin-left: 120px;}
+
+@media only screen and (max-width: 600px) {#main {margin-left: 0;}}
+
+.w3-active-black{color:#fff!important;background-color:#000!important}
+
+a {
+  text-decoration: none;
+}
