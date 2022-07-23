@@ -1,5 +1,6 @@
 // Adding single page “scrolling” navigation to your site
 // From https://codepen.io/alturnwall/pen/PomwGMY
+"use strict";
 
 const w3divs = document.querySelectorAll("div[id]");
 
@@ -10,7 +11,7 @@ function navHighlighter() {
   w3divs.forEach(current => {
     const w3divHeight = current.offsetHeight;
     const w3divTop = (current.getBoundingClientRect().top + window.pageYOffset) - 50;
-    w3divId = current.getAttribute("id");
+    const w3divId = current.getAttribute("id");
     if (
       scrollY > w3divTop &&
       scrollY <= w3divTop + w3divHeight

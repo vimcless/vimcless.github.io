@@ -1,4 +1,5 @@
-body, h1, h2, h3, h4, h5, h6 {font-family: "Linux Biolinum", sans-serif;}
+html, body, h1, h2, h3, h4, h5, h6 {font-family: "Linux Libertine", serif;}
+/*body, h1, h2, h3, h4, h5, h6 {font-family: "Linux Biolinum", sans-serif;}*/
 
 .w3-row-padding img {margin-bottom: 12px}
 
@@ -10,6 +11,4 @@ body, h1, h2, h3, h4, h5, h6 {font-family: "Linux Biolinum", sans-serif;}
 
 .w3-active-black{color:#fff!important;background-color:#000!important}
 
-a {
-  text-decoration: none;
-}
+a {text-decoration: none;}
