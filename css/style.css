@@ -1,47 +1,25 @@
-:root {
-  color-scheme: light dark;
-}
-html, body, h1, h2, h3, h4, h5, h6 {
-  font-family: "Linux Libertine", serif;
-}
+/* Libertine fonts from https://libertine-fonts.org/ */
+/*Same code in ./libbiofont.css*/
+@font-face {font-family: "Linux Biolinum"; src: url("../font/LinLibertine/LinBiolinum_R.woff") format("woff");}
+@font-face {font-family: "Linux Biolinum"; src: url("../font/LinLibertine/LinBiolinum_RI.woff") format("woff"); font-style: italic;}
+@font-face {font-family: "Linux Biolinum"; src: url("../font/LinLibertine/LinBiolinum_RB.woff") format("woff"); font-weight: bold;}
+@font-face {font-family: "Linux Biolinum"; src: url("../font/LinLibertine/LinBiolinum_RBI.woff") format("woff"); font-weight: bold; font-style: italic;}
+@font-face {font-family: "Linux Libertine"; src: url("../font/LinLibertine/LinLibertine_R.woff") format("woff");}
+@font-face {font-family: "Linux Libertine"; src: url("../font/LinLibertine/LinLibertine_RI.woff") format("woff"); font-style: italic;}
+@font-face {font-family: "Linux Libertine"; src: url("../font/LinLibertine/LinLibertine_RB.woff") format("woff"); font-weight: bold;}
+@font-face {font-family: "Linux Libertine"; src: url("../font/LinLibertine/LinLibertine_RBI.woff") format("woff"); font-weight: bold; font-style: italic;}
+@font-face {font-family: "Linux Libertine Mono"; src: url("../font/LinLibertine/LinLibertine_M.woff") format("woff");}
+/**/
+:root {color-scheme: light dark;}
+html, body, h1, h2, h3, h4, h5, h6 {font-family: "Linux Libertine", serif;}
 /*html, body, h1, h2, h3, h4, h5, h6 {font-family: "Linux Biolinum", sans-serif;}*/
-.w3-row-padding img {
-  margin-bottom: 12px;
-}
-.w3-sidebar {
-  background: #222; width: 120px;
-}
-#main {
-  margin-left: 120px;
-}
-@media only screen and (
-  max-width: 600px
-) {
-  #main {margin-left: 0;
-  }
-}
-.w3-active-black {
-  color:#fff !important;
-  background-color:#000 !important;
-}
-.w3-a-black, .w3-hover-a-black:hover, .w3-active-a-black {
-  color:#f1f1f1 !important;
-  background-color:#0e0e0e !important;
-}
-.w3-text-a-white, .w3-hover-text-a-white:hover {
-  color:#f1f1f1 !important;
-}
-.mySlides {
-  display:none;
-}
-.w3-left, .w3-right, .w3-badge {
-  cursor:pointer;
-}
-.w3-badge {
-  height:13px;
-  width:13px;
-  padding:0;
-}
-a {
-  text-decoration: none;
-}
+a {text-decoration: none;}
+hr {width: 200px;}
+.w3-row-padding img {margin-bottom: 12px;}
+.w3-sidebar {background: #222; width: 120px;}
+#main {margin-left: 120px;}
+@media only screen and (max-width: 600px){#main {margin-left: 0;}}
+.w3-active-black {color:#fff !important; background-color:#000 !important;}
+.mySlides {display:none;}
+.w3-left, .w3-right, .w3-badge {cursor:pointer;}
+.w3-badge {height:13px; width:13px; padding:0;}

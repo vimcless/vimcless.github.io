@@ -1,45 +1,10 @@
 /* Libertine fonts from https://libertine-fonts.org/ */
-@font-face {
-  font-family: "Linux Biolinum";
-  src: url("../font/LinLibertine/LinBiolinum_R.woff") format("woff");
-}
-@font-face {
-  font-family: "Linux Biolinum";
-  src: url("../font/LinLibertine/LinBiolinum_RI.woff") format("woff");
-  font-style: italic;
-}
-@font-face {
-  font-family: "Linux Biolinum";
-  src: url("../font/LinLibertine/LinBiolinum_RB.woff") format("woff");
-  font-weight: bold;
-}
-@font-face {
-  font-family: "Linux Biolinum";
-  src: url("../font/LinLibertine/LinBiolinum_RBI.woff") format("woff");
-  font-weight: bold;
-  font-style: italic;
-}
-@font-face {
-  font-family: "Linux Libertine";
-  src: url("../font/LinLibertine/LinLibertine_R.woff") format("woff");
-}
-@font-face {
-  font-family: "Linux Libertine";
-  src: url("../font/LinLibertine/LinLibertine_RI.woff") format("woff");
-  font-style: italic;
-}
-@font-face {
-  font-family: "Linux Libertine";
-  src: url("../font/LinLibertine/LinLibertine_RB.woff") format("woff");
-  font-weight: bold;
-}
-@font-face {
-  font-family: "Linux Libertine";
-  src: url("../font/LinLibertine/LinLibertine_RBI.woff") format("woff");
-  font-weight: bold;
-  font-style: italic;
-}
-@font-face {
-  font-family: "Linux Libertine Mono";
-  src: url("../font/LinLibertine/LinLibertine_M.woff") format("woff");
-}
+@font-face {font-family: "Linux Biolinum"; src: url("../font/LinLibertine/LinBiolinum_R.woff") format("woff");}
+@font-face {font-family: "Linux Biolinum"; src: url("../font/LinLibertine/LinBiolinum_RI.woff") format("woff"); font-style: italic;}
+@font-face {font-family: "Linux Biolinum"; src: url("../font/LinLibertine/LinBiolinum_RB.woff") format("woff"); font-weight: bold;}
+@font-face {font-family: "Linux Biolinum"; src: url("../font/LinLibertine/LinBiolinum_RBI.woff") format("woff"); font-weight: bold; font-style: italic;}
+@font-face {font-family: "Linux Libertine"; src: url("../font/LinLibertine/LinLibertine_R.woff") format("woff");}
+@font-face {font-family: "Linux Libertine"; src: url("../font/LinLibertine/LinLibertine_RI.woff") format("woff"); font-style: italic;}
+@font-face {font-family: "Linux Libertine"; src: url("../font/LinLibertine/LinLibertine_RB.woff") format("woff"); font-weight: bold;}
+@font-face {font-family: "Linux Libertine"; src: url("../font/LinLibertine/LinLibertine_RBI.woff") format("woff"); font-weight: bold; font-style: italic;}
+@font-face {font-family: "Linux Libertine Mono"; src: url("../font/LinLibertine/LinLibertine_M.woff") format("woff");}

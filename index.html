@@ -1,195 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--
-  This CV/portfolio html was modified by Vinícius Couto since 20220717 based on these templates:
-  Dark Portfolio Template - https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_dark_portfolio&stacked=h
-  CV Template - https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_cv&stacked=h
-  Resume - https://startbootstrap.com/theme/resume
--->
+<!-- This CV/portfolio html was modified by Vinícius Couto since 20220717 based on these templates: 
+Dark Portfolio Template - https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_dark_portfolio&stacked=h
+CV Template - https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_cv&stacked=h
+Resume - https://startbootstrap.com/theme/resume -->
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Personal CV/portfolio website">
-  <meta name="author" content="Vinicius Couto">
+  <meta name="author" content="Vinícius Couto">
   <title>Vinicius Couto</title>
-  <!-- favicon.ico from https://favicon.io/ -->
   <link rel="icon" type="image/png" href="./favicon_io/android-chrome-192x192.png">
-  <!--<link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
-  <link rel="manifest" href="./favicon_io/site.webmanifest">-->
-  <!-- font awesome from https://fontawesome.com/ - CSS and JS -->
-  <script async src="./fontawesome/js/all.js"></script>
-  <!--<link rel="stylesheet" type="text/css" href="./fontawesome/css/all.css">-->
-  <!-- highlight active section in navigation bar -->
-  <script async src="./js/active.js"></script>
-  <!-- W3.CSS from https://www.w3schools.com/w3css/ -->
+  <link rel="stylesheet" type="text/css" href="./fontawesome/css/all.min.css">
   <link rel="stylesheet" type="text/css" href="./css/w3.css">
-  <script async src="./js/slideshow.js"></script>
-  <!-- libertine font package -->
-  <link rel="stylesheet" type="text/css" href="./css/libbiofont.css">
+  <!--<link rel="stylesheet" type="text/css" href="./css/libbiofont.css">-->
   <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <script async src="./js/active.js"></script>
+  <!--<script async src="./js/slideshow.js"></script>-->
+  <!--<script async src="./fontawesome/js/all.min.js"></script>-->
 </head>
-<body class="w3-black"><!-- begin -->
-<nav class="w3-navigation"> <!-- navigation bars -->
-  <div class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center"><!-- screens > 600px -->
-    <a href="#">
-      <img src="./media/profphot.jpg" alt="Profile photo" class="w3-grayscale-max" style="width: 100%;">
-    </a>
-    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-      <span class="fa-solid fa-user w3-xxlarge"></span>
-      <span class="w3-large">
-        ABOUT
-      </span>
-    </a>
-    <a href="#skill" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-      <span class="fa-solid fa-award w3-xxlarge"></span>
-      <span class="w3-large">
-        SKILLS
-      </span>
-    </a>
-    <a href="#education" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-      <span class="fa-solid fa-user-graduate w3-xxlarge"></span>
-      <span class="w3-large">
-        EDU
-      </span>
-    </a>
-    <a href="#link" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-      <span class="fa-solid fa-link w3-xxlarge"></span>
-      <span class="w3-large">
-        LINKS
-      </span>
-    </a>
+<body class="w3-black">
+<nav class="w3-navigation">
+  <div class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center"><!--screens > 600px-->
+    <a href="#"> <img src="./media/profphot.jpg" alt="Profile photo" class="w3-grayscale-max" style="width: 100%;"> </a>
+    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-dark-gray"> <span class="fa-solid fa-user w3-xxlarge"></span> <span class="w3-large">ABOUT</span> </a>
+    <a href="#skill" class="w3-bar-item w3-button w3-padding-large w3-hover-dark-gray"> <span class="fa-solid fa-award w3-xxlarge"></span> <span class="w3-large">SKILLS</span> </a>
+    <a href="#education" class="w3-bar-item w3-button w3-padding-large w3-hover-dark-gray"> <span class="fa-solid fa-user-graduate w3-xxlarge"></span> <span class="w3-large">EDU</span> </a>
+    <a href="#link" class="w3-bar-item w3-button w3-padding-large w3-hover-dark-gray"> <span class="fa-solid fa-link w3-xxlarge"></span> <span class="w3-large">LINKS</span> </a>
   </div>
-  <div class="w3-top w3-hide-large w3-hide-medium"><!-- screens <= 600px -->
+  <div class="w3-top w3-hide-large w3-hide-medium"><!--screens <= 600px-->
     <div class="w3-bar w3-opacity-max w3-hover-opacity-off w3-center w3-small">
-      <a href="#">
-        <img src="./media/profphot.jpg" alt="Profile photo" class="w3-bar-item w3-grayscale-max" style="height: 40px;">
-      </a>
-      <a href="#about" class="w3-bar-item w3-button" style="width:21% !important">
-        ABOUT
-      </a>
-      <a href="#skill" class="w3-bar-item w3-button" style="width:21% !important">
-        SKILLS
-      </a>
-      <a href="#education" class="w3-bar-item w3-button" style="width:21% !important">
-        EDU
-      </a>
-      <a href="#link" class="w3-bar-item w3-button" style="width:21% !important">
-        LINKS
-      </a>
+      <a href="#"> <img src="./media/profphot.jpg" alt="Profile photo" class="w3-bar-item w3-grayscale-max" style="width: 16%;"> </a>
+      <a href="#about" class="w3-bar-item w3-button w3-hover-dark-gray" style="width:21% !important"> ABOUT </a>
+      <a href="#skill" class="w3-bar-item w3-button w3-hover-dark-gray" style="width:21% !important"> SKILLS </a>
+      <a href="#education" class="w3-bar-item w3-button w3-hover-dark-gray" style="width:21% !important"> EDU </a>
+      <a href="#link" class="w3-bar-item w3-button w3-hover-dark-gray" style="width:21% !important"> LINKS </a>
     </div>
   </div>
 </nav>
-<div class="w3-padding-large">
-<header class="w3-container w3-padding-32 w3-center"><!-- title -->
-  <h1 class="w3-jumbo">
-    Vinícius Couto
-  </h1>
-  <span class="w3-jumbo fa-solid fa-triangle-exclamation"></span> <span class="w3-jumbo">Site under construction</span> <span class="w3-jumbo fa-solid fa-triangle-exclamation"></span>
+<header class="w3-container w3-padding-64 w3-center">
+  <h1 class="w3-jumbo"> Vinícius Couto </h1>
+  <span class="w3-jumbo fa-solid fa-triangle-exclamation"></span> <span class="w3-jumbo"> Site under construction </span> <span class="w3-jumbo fa-solid fa-triangle-exclamation"></span>
 </header>
 <main>
-  <div class="w3-content w3-justify w3-padding-64" id="about"><!-- about me -->
-    <h2>
-      About me
-    </h2>
-    <hr style="width:200px">
-    <span class="w3-jumbo fa-solid fa-triangle-exclamation"></span><span class="w3-jumbo">Section under construction</span>
-    <div style="height: 600px"></div>
-  </div>
-  <div class="w3-padding-64 w3-content" id="skill"> <!-- skills -->
-    <h2>
-      Skills
-    </h2>
-    <hr style="width:200px">
+  <section class="w3-padding-64 w3-content" id="about">
+    <h2 class="w3-xxlarge"> About me </h2>
+    <hr>
+    <div style="height: 500px"></div>
+  </section>
+  <section class="w3-padding-64 w3-content" id="skill">
+    <h2 class="w3-xxlarge"> Skills </h2>
+    <hr>
     <div class="w3-content w3-display-container" style="padding-top: 32px; width: 60%;">
       <div class="mySlides">
         <ul class="w3-ul w3-gray w3-center">
           <li class="w3-dark-gray w3-xlarge w3-padding-32">Basic</li>
-          <li class="w3-padding-16">Front-end <span class="fa-brands fa-html5"></span> <span class="fa-brands fa-css3"></span> <span class="fa-brands fa-js"></span></li>
+          <li class="w3-padding-16 w3-large">Front-end <span class="fa-brands fa-html5"></span> <span class="fa-brands fa-css3"></span> <span class="fa-brands fa-js"></span></li>
           <li class="w3-padding-64"></li>
         </ul>
       </div>
       <div class="mySlides">
         <ul class="w3-ul w3-gray w3-center">
           <li class="w3-dark-gray w3-xlarge w3-padding-32">Intermediate</li>
-          <li class="w3-padding-16">Data analysis</li>
-          <li class="w3-padding-16">Linux <span class="fa-brands fa-linux"></span></li>
-          <li class="w3-padding-16"> LaTex <img src="./media/wiki_LaTeX_project_logo_bird.svg" alt="LaTex logo" class="w3-grayscale-max" style="height: 1rem;"></li>
+          <li class="w3-padding-16 w3-large">Data analysis</li>
+          <li class="w3-padding-16 w3-large">Linux <span class="fa-brands fa-linux"></span></li>
+          <li class="w3-padding-16 w3-large"> LaTex <img src="./media/wiki_LaTeX_project_logo_bird.svg" alt="LaTex logo" class="w3-grayscale-max" style="height: 1rem;"></li>
           <li class="w3-padding-64"></li>
         </ul>
       </div>
       <div class="mySlides">
         <ul class="w3-ul w3-gray w3-center">
           <li class="w3-dark-gray w3-xlarge w3-padding-32">Advanced</li>
-          <li class="w3-padding-16">Atmospheric boundary layer</li>
-          <li class="w3-padding-16">Atmospheric modeling</li>
+          <li class="w3-padding-16 w3-large">Atmospheric boundary layer</li>
+          <li class="w3-padding-16 w3-large">Atmospheric modeling</li>
           <li class="w3-padding-64"></li>
         </ul>
       </div>
       <div class="mySlides">
         <ul class="w3-ul w3-gray w3-center">
           <li class="w3-dark-gray w3-xlarge w3-padding-32">Languages</li>
-          <li class="w3-padding-16">Brazilian portuguese - native</li>
-          <li class="w3-padding-16">English - intermediate</li>
+          <li class="w3-padding-16 w3-large">Brazilian portuguese - native</li>
+          <li class="w3-padding-16 w3-large">English - intermediate</li>
           <li class="w3-padding-64"></li>
         </ul>
       </div>
-      <div class="w3-center w3-container w3-section w3-large w3-text-black w3-display-bottommiddle w3-xxlarge" style="width:100%">
-        <div class="w3-left w3-hover-text-dark-gray" onclick="plusDivs(-1)">&#10094;</div>
-        <div class="w3-right w3-hover-text-dark-gray" onclick="plusDivs(1)">&#10095;</div>
+      <!--<div class="w3-center w3-container w3-section w3-large w3-text-black w3-display-bottommiddle" style="width:100%">-->
+      <div class="w3-center w3-container w3-section w3-text-black w3-display-bottommiddle w3-xxlarge" style="width:100%">
+        <span class="w3-left w3-hover-text-dark-gray fa-solid fa-angle-left" onclick="plusDivs(-1)"></span>
+        <span class="w3-right w3-hover-text-dark-gray fa-solid fa-angle-right" onclick="plusDivs(1)"></span>
+        <!--<div class="w3-left w3-hover-text-dark-gray" onclick="plusDivs(-1)">&#10094;</div>
+        <div class="w3-right w3-hover-text-dark-gray" onclick="plusDivs(1)">&#10095;</div>-->
         <span class="w3-badge demo w3-border w3-border-black w3-transparent w3-hover-dark-gray" onclick="currentDiv(1)"></span>
         <span class="w3-badge demo w3-border w3-border-black w3-transparent w3-hover-dark-gray" onclick="currentDiv(2)"></span>
         <span class="w3-badge demo w3-border w3-border-black w3-transparent w3-hover-dark-gray" onclick="currentDiv(3)"></span>
         <span class="w3-badge demo w3-border w3-border-black w3-transparent w3-hover-dark-gray" onclick="currentDiv(4)"></span>
       </div>
     </div>
-  </div>
-  <div class="w3-padding-64 w3-content" id="education"><!-- education -->
-    <h2>
-      Education
-    </h2>
-    <hr style="width:200px">
-    <table>
+  </section>
+  <section class="w3-padding-64 w3-content" id="education">
+    <h2 class="w3-xxlarge"> Education </h2>
+    <hr>
+    <table class="w3-table w3-large">
       <tr>
-        <td>
-          2020 &#8211 2021
-        </td>
-        <td>
-          Eita
-        </td>
+        <td> 2015 &#8211 2020 </td>
+        <td> PhD in Meteorology. <a href="https://www.gov.br/inpe" class="w3-hover-opacity" target="_blank">National Institute for Space Research</a>, <abbr title="Instituto Nacional de Pesquisas Espaciais">INPE</abbr>. </td>
       </tr>
       <tr>
-        <td>
-          2020 &#8211 2021
-        </td>
-        <td>
-          Eita
-        </td>
+        <td> 2011 &#8211 2013 </td>
+        <td> Master degree in Applied Physics Sciences. <a href="http://www.uece.br/" class="w3-hover-opacity" target="_blank">Ceará State University</a>, <abbr title="Universidade Estadual do Ceará">UECE</abbr>. </td>
       </tr>
       <tr>
-        <td>
-          2020 &#8211 2021
-        </td>
-        <td>
-          Eita
-        </td>
+        <td> 2005 &#8211 2010 </td>
+        <td> Bachelor degree in Physics. <a href="http://www.uece.br/" class="w3-hover-opacity" target="_blank">Ceará State University</a>, <abbr title="Universidade Estadual do Ceará">UECE</abbr>. </td>
       </tr>
     </table>
-  </div>
-  <div class="w3-padding-64 w3-content" id="link"><!-- links -->
-    <h2>
-      Links
-    </h2>
-    <hr style="width:200px">
-    <span class="w3-jumbo fa-solid fa-triangle-exclamation"></span><span class="w3-jumbo">Section under construction</span>
-    <div style="height: 600px"></div>
-  </div>
+  </section>
+  <section class="w3-padding-64 w3-content" id="link">
+    <h2 class="w3-xxlarge"> Links </h2>
+    <hr>
+    <div style="height: 500px"></div>
+  </section>
 </main>
-<footer class="w3-content w3-text-gray w3-xlarge w3-center"><!-- page info -->
-  <span class="w3-medium" style="font-family: Linux Libertine Mono, monospace;">Made by Vinícius Couto</span><br>
-  <a href="https://github.com/vimcless/" class="w3-hover-opacity fa-brands fa-github" target="_blank"></a> <a href="https://gitlab.com/vimcless/" class="w3-hover-opacity fa-brands fa-gitlab" target="_blank"></a> <a href="https://www.linkedin.com/in/vimcless/" class="w3-hover-opacity fa-brands fa-linkedin" target="_blank"></a><br>
-  <span class="w3-medium" style="font-family: Linux Libertine Mono, monospace;">Powered by <a href="https://www.w3schools.com/w3css/" class="w3-hover-opacity" target="_blank">W3.CSS</a>, <a href="https://fontawesome.com/" class="w3-hover-opacity" target="_blank">Font Awesome</a> and <a href="https://libertine-fonts.org/" class="w3-hover-opacity" target="_blank">Libertine Fonts</a></span>
+<footer class="w3-content w3-text-gray w3-xlarge w3-center">
+  <span class="w3-medium" style="font-family: Linux Libertine Mono, monospace;"> Made by Vinícius Couto </span> <br>
+  <a href="https://github.com/vimcless/" class="w3-hover-opacity fa-brands fa-github" target="_blank"></a> <a href="https://gitlab.com/vimcless/" class="w3-hover-opacity fa-brands fa-gitlab" target="_blank"></a> <a href="https://www.linkedin.com/in/vimcless/" class="w3-hover-opacity fa-brands fa-linkedin" target="_blank"></a> <br>
+  <span class="w3-medium" style="font-family: Linux Libertine Mono, monospace;"> Powered by <a href="https://www.w3schools.com/w3css/" class="w3-hover-opacity" target="_blank">W3.CSS</a>, <a href="https://fontawesome.com/" class="w3-hover-opacity" target="_blank">Font Awesome</a> and <a href="https://libertine-fonts.org/" class="w3-hover-opacity" target="_blank">Libertine Fonts</a></span>
 </footer>
 </div>
 </body>
