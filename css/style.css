@@ -1,4 +1,4 @@
-/* Libertine fonts from https://libertine-fonts.org/ */
+/*Libertine fonts from https://libertine-fonts.org/ */
 /*Same code in ./libbiofont.css*/
 @font-face {font-family: "Linux Biolinum"; src: url("../font/LinLibertine/LinBiolinum_R.woff") format("woff"); font-display: swap;}
 @font-face {font-family: "Linux Biolinum"; src: url("../font/LinLibertine/LinBiolinum_RI.woff") format("woff"); font-style: italic; font-display: swap;}
@@ -8,12 +8,12 @@
 @font-face {font-family: "Linux Libertine"; src: url("../font/LinLibertine/LinLibertine_RI.woff") format("woff"); font-style: italic; font-display: swap;}
 @font-face {font-family: "Linux Libertine"; src: url("../font/LinLibertine/LinLibertine_RB.woff") format("woff"); font-weight: bold; font-display: swap;}
 @font-face {font-family: "Linux Libertine"; src: url("../font/LinLibertine/LinLibertine_RBI.woff") format("woff"); font-weight: bold; font-style: italic; font-display: swap;}
-@font-face {font-family: "Linux Libertine Mono"; src: url("../font/LinLibertine/LinLibertine_M.woff") format("woff");}
-/**/
+@font-face {font-family: "Linux Libertine Mono"; src: url("../font/LinLibertine/LinLibertine_M.woff") format("woff"); font-display: swap;}
+/*End of ./libbiofont.css*/
 :root {color-scheme: light dark;}
-html, body, h1, h2, h3, h4, h5, h6 {font-family:"Linux Libertine", Georgia, "Times New Roman", Times, serif;}
-/*html, body, h1, h2, h3, h4, h5, h6 {font-family:"Linux Biolinum", "Helvetica Neue", Helvetica, Arial, sans-serif;}*/
-/*html, body, h1, h2, h3, h4, h5, h6 {font-family:"Linux Libertine Mono", Menlo, Monaco, "Courier New", monospace;}*/
+html, body, h1, h2, h3, h4, h5, h6 {font-family:"Linux Libertine O","Linux Libertine", "DejaVu Serif", "Liberation Serif", Georgia, "Times New Roman", Times, Garamond, serif;}
+/*html, body, h1, h2, h3, h4, h5, h6 {font-family:"Linux Biolinum O", "Linux Biolinum", "DejaVu Sans", "Liberation Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;}*/
+/*html, body, h1, h2, h3, h4, h5, h6 {font-family:"Linux Libertine Mono O", "Linux Libertine Mono", "DejaVu Sans Mono", "Liberation Mono", Menlo, Monaco, "Courier New", monospace;}*/
 a {text-decoration: none;}
 hr {width: 200px;}
 .w3-row-padding img {margin-bottom: 12px;}

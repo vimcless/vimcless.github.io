@@ -1,4 +1,4 @@
-// Adding single page “scrolling” navigation to your site from https://codepen.io/alturnwall/pen/PomwGMY
+//Adding single page “scrolling” navigation to your site from https://codepen.io/alturnwall/pen/PomwGMY
 "use strict";
 const PGSECS = document.querySelectorAll("section[id]");
 window.addEventListener("scroll", navHighlighter);
@@ -9,14 +9,14 @@ function navHighlighter() {
     const pgSecTop = (current.getBoundingClientRect().top + window.pageYOffset) - 50;
     const pgSecId = current.getAttribute("id");
     if (scrollY > pgSecTop && scrollY <= pgSecTop + pgSecHeight) {
-      document.querySelector(".w3-navigation a[href*=" + pgSecId + "]").classList.add("w3-active-black");
+      document.querySelector(`.w3-navigation a[href*=${pgSecId}]`).classList.add("w3-active-black");
     } else {
-      document.querySelector(".w3-navigation a[href*=" + pgSecId + "]").classList.remove("w3-active-black");
+      document.querySelector(`.w3-navigation a[href*=${pgSecId}]`).classList.remove("w3-active-black");
     }
   });
 }
 //W3.CSS Slideshow from https://www.w3schools.com/w3css/w3css_slideshow.asp
-// Same code in ./slideshow.js
+//Same code in ./slideshow.js
 var slideIndex = 1;
 showDivs(slideIndex);
 function plusDivs(n) {showDivs(slideIndex += n);}
@@ -32,3 +32,4 @@ function showDivs(n) {
   x[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " w3-black";
 }
+//End of ./slideshow.js
