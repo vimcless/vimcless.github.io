@@ -5,7 +5,7 @@ showDivs(slideIndex);
 function plusDivs(n) {showDivs(slideIndex += n);}
 function currentDiv(n) {showDivs(slideIndex = n);}
 function showDivs(n) {
-  var i;
+  let i;
   const x = document.getElementsByClassName("mySlides");
   const dots = document.getElementsByClassName("demo");
   if (n > x.length) {slideIndex = 1}
