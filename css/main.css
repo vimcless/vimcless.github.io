@@ -1,15 +1,18 @@
-html, body, h1, h2, h3, h4, h5, h6 {font-family:"Lin Libertine", serif;}
 /*html, body, h1, h2, h3, h4, h5, h6 {font-family:"Linux Libertine O", "Lin Libertine", "DejaVu Serif", "Liberation Serif", Georgia, "Times New Roman", Times, Garamond, serif;}
 html, body, h1, h2, h3, h4, h5, h6 {font-family:"Linux Biolinum O", "Lin Biolinum", "DejaVu Sans", "Liberation Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;}
 html, body, h1, h2, h3, h4, h5, h6 {font-family:"Linux Libertine Mono O", "Lin Libertine Mono", "DejaVu Sans Mono", "Liberation Mono", Menlo, Monaco, "Courier New", monospace;}*/
+html, body, h1, h2, h3, h4, h5, h6 {font-family:"Lin Libertine", serif;}
+footer > span {font-family:"Lin Libertine Mono", monospace;}
 a {text-decoration: none;}
 hr {width: 200px;}
 .w3-row-padding img {margin-bottom: 12px;}
 .w3-sidebar {background: #222; width: 120px;}
-#main {margin-left: 120px;}
-@media only screen and (max-width: 600px){#main {margin-left: 0;}}
-.w3-active-black {color:#fff !important; background-color:#000 !important;}
+/*#main {margin-left: 120px;}
+@media only screen and (max-width: 600px){#main {margin-left: 0;}}*/
 .mySlides {display:none;}
 .w3-left, .w3-right, .w3-badge {cursor:pointer;}
 .w3-badge {height:13px; width:13px; padding:0;}
 .mySlides ul {height: 400px;}
+.pg-w3-active-black {color:#fff !important; background-color:#000 !important;}
+.pg-w3-responsive-content {margin-left: 120px;}
+@media only screen and (max-width: 600px){.pg-w3-responsive-content {margin-left: 0;}}

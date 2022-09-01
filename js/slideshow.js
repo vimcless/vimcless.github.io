@@ -1,13 +1,11 @@
-//W3.CSS Slideshow from https://www.w3schools.com/w3css/w3css_slideshow.asp
+//W3.CSS Slideshow based from https://www.w3schools.com/w3css/w3css_slideshow.asp
 "use strict";
-let slideIndex = 1;
+let slideIndex = 1, i;
+const x = document.getElementsByClassName("mySlides"), dots = document.getElementsByClassName("demo");
 showDivs(slideIndex);
 function plusDivs(n) {showDivs(slideIndex += n);}
 function currentDiv(n) {showDivs(slideIndex = n);}
 function showDivs(n) {
-  let i;
-  const x = document.getElementsByClassName("mySlides");
-  const dots = document.getElementsByClassName("demo");
   if (n > x.length) {slideIndex = 1}
   if (n < 1) {slideIndex = x.length}
   for (i = 0; i < x.length; i++) {x[i].style.display = "none";}

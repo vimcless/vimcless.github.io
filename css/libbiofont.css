@@ -1,10 +1,10 @@
 /* Libertine fonts from https://libertine-fonts.org/ */
-@font-face {font-family: "Lin Biolinum"; src: url("../font/LinLibertine/LinBiolinum_R.woff") format("woff"); font-display: swap;}
-@font-face {font-family: "Lin Biolinum"; src: url("../font/LinLibertine/LinBiolinum_RI.woff") format("woff"); font-style: italic; font-display: swap;}
-@font-face {font-family: "Lin Biolinum"; src: url("../font/LinLibertine/LinBiolinum_RB.woff") format("woff"); font-weight: bold; font-display: swap;}
-@font-face {font-family: "Lin Biolinum"; src: url("../font/LinLibertine/LinBiolinum_RBI.woff") format("woff"); font-weight: bold; font-style: italic; font-display: swap;}
-@font-face {font-family: "Lin Libertine"; src: url("../font/LinLibertine/LinLibertine_R.woff") format("woff"); font-display: swap;}
-@font-face {font-family: "Lin Libertine"; src: url("../font/LinLibertine/LinLibertine_RI.woff") format("woff"); font-style: italic; font-display: swap;}
-@font-face {font-family: "Lin Libertine"; src: url("../font/LinLibertine/LinLibertine_RB.woff") format("woff"); font-weight: bold; font-display: swap;}
-@font-face {font-family: "Lin Libertine"; src: url("../font/LinLibertine/LinLibertine_RBI.woff") format("woff"); font-weight: bold; font-style: italic; font-display: swap;}
-@font-face {font-family: "Lin Libertine Mono"; src: url("../font/LinLibertine/LinLibertine_M.woff") format("woff"); font-display: swap;}
+@font-face {font-family: "Lin Biolinum"; src: url("../LinLibertine/LinBiolinum_R.woff") format("woff"); font-display: swap;}
+@font-face {font-family: "Lin Biolinum"; src: url("../LinLibertine/LinBiolinum_RI.woff") format("woff"); font-style: italic; font-display: swap;}
+@font-face {font-family: "Lin Biolinum"; src: url("../LinLibertine/LinBiolinum_RB.woff") format("woff"); font-weight: bold; font-display: swap;}
+@font-face {font-family: "Lin Biolinum"; src: url("../LinLibertine/LinBiolinum_RBI.woff") format("woff"); font-weight: bold; font-style: italic; font-display: swap;}
+@font-face {font-family: "Lin Libertine"; src: url("../LinLibertine/LinLibertine_R.woff") format("woff"); font-display: swap;}
+@font-face {font-family: "Lin Libertine"; src: url("../LinLibertine/LinLibertine_RI.woff") format("woff"); font-style: italic; font-display: swap;}
+@font-face {font-family: "Lin Libertine"; src: url("../LinLibertine/LinLibertine_RB.woff") format("woff"); font-weight: bold; font-display: swap;}
+@font-face {font-family: "Lin Libertine"; src: url("../LinLibertine/LinLibertine_RBI.woff") format("woff"); font-weight: bold; font-style: italic; font-display: swap;}
+@font-face {font-family: "Lin Libertine Mono"; src: url("../LinLibertine/LinLibertine_M.woff") format("woff"); font-display: swap;}

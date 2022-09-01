@@ -7,12 +7,12 @@ function navHighlighter() {
   vertScroll = window.scrollY;
   PGSECS.forEach(current => {
     pgSecHeight = current.offsetHeight;
-    pgSecTop = (current.getBoundingClientRect().top + window.scrollY) - 50;
+    pgSecTop = (current.getBoundingClientRect().top + window.scrollY);
     pgSecId = current.getAttribute("id");
     if (vertScroll > pgSecTop && vertScroll <= pgSecTop + pgSecHeight) {
-      document.querySelector(`.w3-navigation a[href*=${pgSecId}]`).classList.add("w3-active-black");
+      document.querySelector(`.w3-navigation a[href*=${pgSecId}]`).classList.add("pg-w3-active-black");
     } else {
-      document.querySelector(`.w3-navigation a[href*=${pgSecId}]`).classList.remove("w3-active-black");
+      document.querySelector(`.w3-navigation a[href*=${pgSecId}]`).classList.remove("pg-w3-active-black");
     }
   });
 }
