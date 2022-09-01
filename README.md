@@ -28,3 +28,9 @@ https://startbootstrap.com/theme/resume
 
 Adding single page “scrolling” navigation to your site
 https://codepen.io/alturnwall/pen/PomwGMY
+
+W3.CSS Slideshow
+https://www.w3schools.com/w3css/w3css_slideshow.asp
+
+Favicon Generator
+https://favicon.io/
