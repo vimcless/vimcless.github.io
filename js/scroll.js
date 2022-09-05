@@ -4,7 +4,7 @@ const PGSECS = document.querySelectorAll("section[id]");
 window.addEventListener("scroll", navHighlighter);
 function navHighlighter() {
   const vertScroll = window.scrollY;
-  PGSECS.forEach(current => {
+  PGSECS.forEach(function (current) {
     const pgSecHeight = current.offsetHeight;
     const pgSecTop = (current.getBoundingClientRect().top + window.scrollY);
     const pgSecId = current.getAttribute("id");
